@@ -7,6 +7,7 @@ public class Calculator {
 
     public int addTwoNumbers(int num1,int num2) {
         log.info("addTwoNumbers method invoked");
+        log.info("Hello..");
         return num1+num2;
     }
     public int subtractTwoNumbers(int num1,int num2) {
