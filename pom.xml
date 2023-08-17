@@ -13,13 +13,14 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>jenkinsTesting</name>
     <description>jenkinsTesting</description>
+    <packaging>war</packaging>
     <properties>
         <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
@@ -39,6 +40,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.10</version>
                 <executions>
                     <execution>
                         <goals>
